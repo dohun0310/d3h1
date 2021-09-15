@@ -39,3 +39,13 @@
     pointer-events: none;
     opacity: 0.7;
 }
+
+.contents {
+    padding-top: 550px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.diskstaion {
+    color: #fff
+}
