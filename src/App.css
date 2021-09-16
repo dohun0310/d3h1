@@ -5,29 +5,21 @@
     flex-direction: column;
 }
 
-.header {
+.Header {
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
+    font-family: "Noto Sans KR", sans-serif
 }
 
-.header h1 {
-    font-family: "Noto Sans KR", sans-serif; 
-}
-
-.header p {
-    font-family: "Noto Sans KR", sans-serif; 
-}
-
-.contents {
+.Contents {
     display: flex;
     font-size: 15px;
-    padding-top: 500px;
-    background-color: '(0, 0, 0, 0.5)';
+    padding-top: 550px;
     justify-content: space-around;
 }
 
-.background {
+.Background {
     position: fixed;
     z-index: -1;
     width: 100%;
@@ -40,12 +32,3 @@
     opacity: 0.7;
 }
 
-.contents {
-    padding-top: 550px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.diskstaion {
-    color: #fff
-}

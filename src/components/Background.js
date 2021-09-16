@@ -36,7 +36,7 @@ const Background = () => {
 
   return (
     <div 
-      className='background'
+      className='Background'
       style={{
         backgroundImage: `url(${bg})`
       }}
