@@ -19,6 +19,34 @@
     justify-content: space-around;
 }
 
+.diskstation {
+    padding: 25px 70px;
+    border-radius: 12px;
+    color: black;
+    background-color: white;
+}
+
+.homeassistant {
+    padding: 25px 70px;
+    border-radius: 12px;
+    color: black;
+    background-color: white;
+}
+
+.jellyfin {
+    padding: 25px 70px;
+    border-radius: 12px;
+    color: black;
+    background-color: white;
+}
+
+.visualstudiochode {
+    padding: 25px 70px;
+    border-radius: 12px;
+    color: black;
+    background-color: white;
+}
+
 .Background {
     position: fixed;
     z-index: -1;
@@ -29,6 +57,6 @@
     background-position: center;
     user-select: none;
     pointer-events: none;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
