@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-
 import BG1 from '../assets/bg-1.jpg';
 import BG2 from '../assets/bg-2.jpg';
 import BG3 from '../assets/bg-3.jpg';
