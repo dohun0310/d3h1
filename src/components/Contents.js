@@ -7,28 +7,42 @@ import vsc from '../img/vsc.png'
 function Contents() {
   return (
     <>
-      <div className="Contents">
-        <button className="diskstation">
-            <img className="dsmicon" alt="dsm" src={dsm} />
+      <div className="diskstation">
+        <a href="#https://d3h1.com">
+          <img src={dsm} alt="dsmicon" title="dsmicon"></img>
+          <div className="dsmtext">
             <h1>DiskStation</h1>
-            <p>어디서나 접근이 가능한 클라우드 스토리지</p>
-        </button>
-        <button className="homeassistant">
-          <img className="haicon" alt="ha" src={ha} />
-          <h1>Home Assistant</h1>
-          <p>스마트홈을 관리, 제어</p>
-        </button>
-        <button className="jellyfin">
-          <img className="jlyicon" alt="jly" src={jly} />
-          <h1>Jellyfin</h1>
-          <p>미디어 콘텐츠를 어디서나 스트리밍</p>
-        </button>
-        <button className="visualstudiochode">
-          <img className="vscicon" alt="vsc" src={vsc} />
-          <h1>Visual Studio Code</h1>
-          <p>프로그래머용 에디터</p>
-        </button>
+            <p>어디서나 접근 가능한 클라우드 스토리지</p>
+          </div>
+        </a>
       </div>
+      <div className="homeassistant">
+        <a href="https://ha.d3h1.com">
+          <img src={ha} alt="haicon" title="haicon"></img>
+          <div className="hatext">
+            <h1>Home Assistant</h1>
+            <p>스마트홈을 관리, 제어</p>
+          </div>
+        </a>
+      </div>
+      <div className="jellyfin">
+        <a href="https://jellyfin.d3h1.com">
+          <img src={jly} alt="jlyicon" title="jlyicon"></img>
+          <div className="jlytext">
+            <h1>Jellyfin</h1>
+            <p>드라마나 영화를 스트리밍</p>
+          </div>
+        </a>
+      </div>
+    <div className="visualstudiocode">
+      <a href="https://vs.d3h1.com">
+        <img src={vsc} alt="vscicon" title="vscicon"></img>
+        <div className="vsctext">
+          <h1>Visual Studio Code</h1>
+          <p>프로그래머용 에디터터</p>
+        </div>
+      </a>
+    </div>
     </>
   );
 }
