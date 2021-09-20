@@ -39,7 +39,7 @@ function Contents() {
         <img src={vsc} alt="vscicon" title="vscicon"></img>
         <div className="vsctext">
           <h1>Visual Studio Code</h1>
-          <p>프로그래머용 에디터터</p>
+          <p>프로그래머용 에디터</p>
         </div>
       </a>
     </div>
