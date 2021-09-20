@@ -7,8 +7,9 @@ import vsc from '../img/vsc.png'
 function Contents() {
   return (
     <>
+    <div className="contents">
       <div className="diskstation">
-        <a href="#https://d3h1.com">
+        <a href="https://d3h1.com" target="_blank" rel="noopener noreferrer">
           <img src={dsm} alt="dsmicon" title="dsmicon"></img>
           <div className="dsmtext">
             <h1>DiskStation</h1>
@@ -17,7 +18,7 @@ function Contents() {
         </a>
       </div>
       <div className="homeassistant">
-        <a href="https://ha.d3h1.com">
+        <a href="https://ha.d3h1.com" target="_blank" rel="noopener noreferrer">
           <img src={ha} alt="haicon" title="haicon"></img>
           <div className="hatext">
             <h1>Home Assistant</h1>
@@ -26,7 +27,7 @@ function Contents() {
         </a>
       </div>
       <div className="jellyfin">
-        <a href="https://jellyfin.d3h1.com">
+        <a href="https://jellyfin.d3h1.com" target="_blank" rel="noopener noreferrer">
           <img src={jly} alt="jlyicon" title="jlyicon"></img>
           <div className="jlytext">
             <h1>Jellyfin</h1>
@@ -34,14 +35,15 @@ function Contents() {
           </div>
         </a>
       </div>
-    <div className="visualstudiocode">
-      <a href="https://vs.d3h1.com">
-        <img src={vsc} alt="vscicon" title="vscicon"></img>
-        <div className="vsctext">
-          <h1>Visual Studio Code</h1>
-          <p>프로그래머용 에디터</p>
-        </div>
-      </a>
+      <div className="visualstudiocode">
+        <a href="https://vs.d3h1.com" target="_blank" rel="noopener noreferrer">
+          <img src={vsc} alt="vscicon" title="vscicon"></img>
+          <div className="vsctext">
+            <h1>Visual Studio Code</h1>
+           <p>프로그래머용 에디터</p>
+          </div>
+        </a>
+      </div>
     </div>
     </>
   );
