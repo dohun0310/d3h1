@@ -7,7 +7,7 @@ import vsc from '../img/vsc.png'
 function Contents() {
   return (
     <>
-    <div className="contents">
+    <div className="Contents">
       <a href="https://d3h1.com" target="_blank" rel="noopener noreferrer">
         <button className="diskstation">
           <img src={dsm} alt="dsmicon" title="dsmicon" />
