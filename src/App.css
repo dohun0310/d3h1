@@ -26,13 +26,17 @@
     background: white;
     border: 1px solid white;
     border-radius: 1rem;
-    font-size: 1rem;
     line-height: 1.5;
     font-family: "Noto Sans KR", sans-serif
 }
 
 .dsmtext {
     font-size: 8px;
+    padding-left: 1rem;
+}
+
+.dsmicon {
+    margin: auto 0;
 }
 
 .homeassistant {
@@ -42,13 +46,17 @@
     padding: -90cm;
     border: 1px solid white;
     border-radius: 1rem;
-    font-size: 1rem;
     line-height: 1.5;
     font-family: "Noto Sans KR", sans-serif
 }
 
 .hatext {
     font-size: 8px;
+    padding-left: 1rem;
+}
+
+.haicon{
+    margin: auto 0;
 }
 
 .jellyfin {
@@ -58,13 +66,17 @@
     padding: -90cm;
     border: 1px solid white;
     border-radius: 1rem;
-    font-size: 1rem;
     line-height: 1.5;
     font-family: "Noto Sans KR", sans-serif
 }
 
 .jlytext {
     font-size: 8px;
+    padding-left: 1rem;
+}
+
+.jlyicon {
+    margin: auto 0;
 }
 
 .visualstudiocode {
@@ -74,17 +86,17 @@
     padding: -90cm;
     border: 1px solid white;
     border-radius: 1rem;
-    font-size: 1rem;
     line-height: 1.5;
     font-family: "Noto Sans KR", sans-serif
 }
 
 .vsctext {
     font-size: 8px;
+    padding-left: 1rem;
 }
 
-.vsicon {
-    padding-top: 80px;
+.vscicon {
+    margin: auto 0;
 }
 
 .Background {
