@@ -28,11 +28,7 @@
     border-radius: 1rem;
     font-size: 1rem;
     line-height: 1.5;
-    font-family: "Noto Sans KR", sans-serif
-}
-
-.dsmtext {
-    padding: 1rem;
+    padding: -90cm;
     font-family: "Noto Sans KR", sans-serif
 }
 
@@ -48,11 +44,6 @@
     font-family: "Noto Sans KR", sans-serif
 }
 
-.hatext{
-    padding: 1rem;
-    font-family: "Noto Sans KR", sans-serif
-}
-
 .jellyfin {
     display: flex;
     color: black;
@@ -65,11 +56,6 @@
     font-family: "Noto Sans KR", sans-serif
 }
 
-.jlytext {
-    padding: 1rem;
-    font-family: "Noto Sans KR", sans-serif
-}
-
 .visualstudiocode {
     display: flex;
     color: black;
@@ -79,11 +65,6 @@
     border-radius: 1rem;
     font-size: 1rem;
     line-height: 1.5;
-    font-family: "Noto Sans KR", sans-serif
-}
-
-.vsctext {
-    padding: 1rem;
     font-family: "Noto Sans KR", sans-serif
 }
 
