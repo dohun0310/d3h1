@@ -16,10 +16,8 @@ const open_graph = () => {
                     property="og:description"
                     content="문구 추천 좀"
                 />
-                {/* 페이지 대표 이미지 정보 */}
                 <meta property="og:image" content={D} />
 
-                {/* 트위터 메타 정보 */}
                 <meta name="twitter:title" content="d3h1" />
                 <meta name="twitter:description" content="문구 추천 좀" />
                 <meta name="twitter:image" content={D} />
