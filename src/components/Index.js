@@ -1,6 +1,6 @@
 import React from 'react'
 import { Helmet } from "react-helmet";
-import favicon from "/public/favicon.ico";
+import favicon from "./public/favicon.ico";
 import D from '../logo.svg'
 
 const open_graph = () => {
