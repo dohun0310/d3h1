@@ -1,13 +1,12 @@
 import React from 'react'
 import { Helmet } from "react-helmet";
-import { ThemeProvider } from "styled-components";
-import favicon from "./public/favicon.ico";
+import favicon from "../favicon.ico";
 import D from '../logo.svg'
 
 const open_graph = () => {
     const currentUrl = document.location.href;
     return (
-        <ThemeProvider theme={theme}>
+        <div>
             <Helmet>
                 <title>d3h1</title>
                 <link rel="icon" href={favicon} />
@@ -23,7 +22,7 @@ const open_graph = () => {
                 <meta name="twitter:description" content="문구 추천 좀" />
                 <meta name="twitter:image" content={D} />
             </Helmet>
-            </ThemeProvider>
+        </div>
     );
 }
 
