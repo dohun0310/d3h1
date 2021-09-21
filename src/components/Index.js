@@ -1,5 +1,6 @@
 import React from 'react'
 import { Helmet } from "react-helmet";
+import { ThemeProvider } from "styled-components";
 import favicon from "./public/favicon.ico";
 import D from '../logo.svg'
 
